@@ -8,5 +8,9 @@ $(function () {
             $("#"+content).show();
         });
     });
-    
+    $("#nav span").click(function(){
+      $("#konsultantka, #klient").hide();
+      $("#nav").fadeOut();
+      $(".kafelki").fadeIn();
+    });
 });

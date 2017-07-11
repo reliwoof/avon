@@ -2,15 +2,21 @@ body {
     background-color: black;
     margin: 0;
 }
-html, body, main { 
-    height: 100%; 
+html, body, main {
+    height: 100%;
     width: 100%;
-    margin: 0; 
+    margin: 0;
 }
 .kafelki {
-    width: 350px;
-    height: 500px;
+    width: 500px;
+    height: 350px;
     position: relative;
+    background-color: silver;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    border-radius: 10px;
+    text-shadow: 2px 2px grey;
     display:flex;
     float: left;
     margin: 5%;
@@ -35,7 +41,11 @@ html, body, main {
     margin: 0 5%;
     height: 50px;
     line-height: 50px;
-    
+
+}
+.menu {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
 }
 #konsultantka {
     color: white;
