@@ -1,6 +1,5 @@
 body {
-    background-image: url("img/simple-gray-texture.jpg");
-    background-repeat:repeat-y repeat-x;
+
     margin: 0;
 }
 html, body, main {
@@ -9,20 +8,39 @@ html, body, main {
     margin: 0;
 }
 .kafelki {
-    width: 500px;
-    height: 350px;
+    width: 510px;
+    height: 360px;
     position: relative;
-    background-color: #D54D83;
+    background-color: rgb(213,68,181);
     font-size: 50px;
     text-align: center;
     font-family: 'Kaushan Script', cursive;
     border-radius: 10px;
-    text-shadow: 2px 2px black;
-    border: solid 4px black;
-    color: white;
+    font-weight: 900;
+    border: solid 6px rgb(213,68,181);
+    color: rgb(213,68,181);
     display:flex;
     float: left;
     margin: 5%;
+    justify-content:center;
+    align-items:center;
+    cursor: pointer;
+}
+.kafelki2 {
+    width: 500px;
+    height: 350px;
+    position: relative;
+    background-color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    border-radius: 10px;
+    font-weight: 900;
+    border: solid 6px darkTurquoise;
+    color: rgb(213,68,181);
+    display:flex;
+    float: left;
+
     justify-content:center;
     align-items:center;
 }
@@ -40,30 +58,49 @@ html, body, main {
 
 }
 #nav div {
-    color:white;
-    margin: 0 5%;
+    width: 20%;
+    margin: 0 3%;
     height: 50px;
+    text-align: center;
     line-height: 50px;
 }
 #nav div span {
-  width: 100%;
-  height: 100%;
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 #nav div:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 #konsultantka, #klient {
-  width: 80%;
-  margin: auto;
-  display: block;
-  padding: 5%;
-  margin-top: 2%;
-  background-color: rgba(255,255,255,0.4);
+    width: 80%;
+    margin: auto;
+    display: block;
+    padding: 5%;
+    margin-top: 2%;
+    background-color: rgba(255,255,255,0.4);
 }
 .menu {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 900;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 900;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: rgb(213,68,181);
+    background-color: white;
+     user-select: none;
+    
 }
+.menu2 {
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 900;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    background-color: rgb(213,68,181);
+    color: white;
+     user-select: none;
+    
+}
+
 
 #blok {
     height: 50px;
@@ -74,7 +111,7 @@ html, body, main {
     position: fixed;
     justify-content:center;
     align-items:center;
-    background-color: silver;
+
 }
 #menu {
     width: 100%;
