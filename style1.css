@@ -40,6 +40,9 @@ html, body, main {
     color: rgb(213,68,181);
     display:flex;
     float: left;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 
     justify-content:center;
     align-items:center;
@@ -87,8 +90,10 @@ html, body, main {
     letter-spacing: 0.5px;
     color: rgb(213,68,181);
     background-color: white;
-     user-select: none;
-    
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+
 }
 .menu2 {
     font-family: 'Kaushan Script', cursive;
@@ -97,8 +102,10 @@ html, body, main {
     letter-spacing: 0.5px;
     background-color: rgb(213,68,181);
     color: white;
-     user-select: none;
-    
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+
 }
 
 
