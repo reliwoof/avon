@@ -17,7 +17,6 @@ html, body, main {
     font-family: 'Kaushan Script', cursive;
     border-radius: 10px;
     font-weight: 900;
-    border: solid 6px rgb(213,68,181);
     color: rgb(213,68,181);
     display:flex;
     float: left;
@@ -36,7 +35,8 @@ html, body, main {
     font-family: 'Kaushan Script', cursive;
     border-radius: 10px;
     font-weight: 900;
-    border: solid 6px darkTurquoise;
+
+    border: none;
     color: rgb(213,68,181);
     display:flex;
     float: left;
@@ -46,6 +46,10 @@ html, body, main {
 
     justify-content:center;
     align-items:center;
+}
+.kafelki2:hover {
+    color: darkTurquoise;
+    border: solid 6px darkTurquoise;
 }
 #kafelki {
     display:flex;
@@ -60,10 +64,12 @@ html, body, main {
     position: relative;
 
 }
+#nav {
+    z-index: 1000;
+}
 #nav div {
     width: 20%;
     margin: 0 3%;
-    height: 50px;
     text-align: center;
     line-height: 50px;
 }
@@ -76,11 +82,10 @@ html, body, main {
     cursor: pointer;
 }
 #konsultantka, #klient {
-    width: 80%;
+    text-align: center;
     margin: auto;
     display: block;
-    padding: 5%;
-    margin-top: 2%;
+    /*padding: 5%;*/
     background-color: rgba(255,255,255,0.4);
 }
 .menu {
@@ -100,8 +105,8 @@ html, body, main {
     font-weight: 900;
     font-size: 25px;
     letter-spacing: 0.5px;
-    background-color: rgb(213,68,181);
-    color: white;
+    background-color: white;
+    color: darkTurquoise;
     user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -117,9 +122,57 @@ html, body, main {
     width: 100%;
     position: fixed;
     justify-content:center;
+    background-color: white;
     align-items:center;
 
 }
 #menu {
     width: 100%;
+    position: relative;
+}
+.klik {
+    line-height: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    z-index: 50;
+    background-color: white;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+.not-clicked {
+    color: rgb(213,68,181) !important;
+}
+.clicked {
+    color: darkturquoise !important;
+}
+#klik {
+    width: 420px;
+    height: 100px;
+/*    top: 2561px;
+    left: 250px;*/
+}/*
+*/#klik1 {
+    width: 250px;
+    height: 100px;
+/*    top: 2561px;
+    left: 800px;*/
+}/*
+*/#klik2 {
+    width: 420px;
+    height: 100px;
+/*    top: 1285px;
+    left: 240px;*/
+}/*
+*/#klik22 {
+    width: 250px;
+    height: 100px;
+/*    top: 1285px;
+    left: 790px;*/
+}
+img {
+    display: block;
+    margin: auto;
 }
